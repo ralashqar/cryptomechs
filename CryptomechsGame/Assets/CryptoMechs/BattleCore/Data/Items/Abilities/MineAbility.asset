@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: MineAbility
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: c81dc2ae276b54d75b77555967a0495c, type: 3}
+  Name: MineAbility
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 5
+  speed: 5
+  attackCooldown: 3
+  range: 15
+  AimType: 1
+  AbilityImpactPoint: 0
+  AbilityMode: 1
+  ChannelFX: {fileID: 0}
+  ImpactFX: {fileID: 0}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 1
+  TrailFX: {fileID: 0}
+  FollowsTarget: 0
+  FollowSteerRate: 0
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    impactType: 10
+    impactValue: 0
+    impactObject: {fileID: 0}
+    areaOfEffect: 8
+    timeOfEffect: 0
+    impactDelay: 0
+    useImpactTargetFX: 1
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 0
+  UseProceduralSpread: 0
+  SpreadType: 0
+  SpreadLength: 0
+  SpreadAngle: 0
+  NumberOfRounds: 0
+  UseCustomChannelAnimation: 0
+  CustomChannelAnimationTrigger: 
+  ChannelMode: 1
+  CanCancelAbility: 1
+  ChannelTime: 3
+  ChannelRate: 1
+  ApplyImpactWhileChanneling: 0
+  MoveWhileChanneling: 0
+  MoveToSelectedTarget: 0
+  MoveDirection: {x: 0, y: 0, z: 0}
+  MoveDistance: 0
+  Modifiers:
+    stats: []

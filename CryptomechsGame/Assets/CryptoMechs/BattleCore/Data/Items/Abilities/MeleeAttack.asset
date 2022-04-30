@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: MeleeAttack
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: 65201528c07a745eb938d5e90d16ca32, type: 3}
+  Name: MeleeAttack
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 5
+  speed: 5
+  attackCooldown: 3
+  range: 15
+  AimType: 4
+  AbilityImpactPoint: 2
+  AbilityMode: 2
+  ChannelFX: {fileID: 0}
+  ImpactFX: {fileID: 0}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 1
+  TrailFX: {fileID: 0}
+  FollowsTarget: 0
+  FollowSteerRate: 0
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    impactType: 0
+    impactValue: 4
+    impactObject: {fileID: 0}
+    areaOfEffect: 3
+    timeOfEffect: 0
+    impactDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 0
+  - ApplicationType: 0
+    impactType: 5
+    impactValue: 5
+    impactObject: {fileID: 0}
+    areaOfEffect: 3
+    timeOfEffect: 0.2
+    impactDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 0
+  UseProceduralSpread: 0
+  SpreadType: 1
+  SpreadLength: 0
+  SpreadAngle: 0
+  NumberOfRounds: 3
+  UseCustomChannelAnimation: 1
+  CustomChannelAnimationTrigger: Charge
+  ChannelMode: 0
+  CanCancelAbility: 0
+  ChannelTime: 1
+  ChannelRate: 1
+  ApplyImpactWhileChanneling: 1
+  MoveWhileChanneling: 1
+  MoveDelay: 0.15
+  MoveToSelectedTarget: 0
+  MoveDirection: {x: 0, y: 0, z: 1}
+  MoveDistance: 8
+  Modifiers:
+    stats: []

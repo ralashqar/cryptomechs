@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f093b1d133774664cb35d2db0db07f0c, type: 3}
+  m_Name: Home
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 2800000, guid: 2f1eaeeaad36ee5469eff7ff158f37ba, type: 3}
+  Name: Home
+  Description: 
+  Notes: 
+  Type: 18
+  Requirements:
+    stats: []
+  mapSprite: {fileID: 21300000, guid: b8fb302c5768e334ca82005f50e58121, type: 3}
+  pinScale: 1
+  pinOffset: {x: 0, y: 0, z: 0}
+  locationType: 1
+  narratives:
+  - {fileID: 11400000, guid: 4f4c48be21227e141a2a1b4a557d0e7e, type: 2}
+  HasMarketplace: 1
+  market: {fileID: 11400000, guid: 228f5fa3a3ae5564893068908540dd96, type: 2}

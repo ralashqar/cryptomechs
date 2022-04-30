@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022be950145c3b041895100c5d33ca83, type: 3}
+  m_Name: Baghdad
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  mapNode: {fileID: 0}
+  storyBlockData:
+    NarrativeBlockID: Baghdad
+    candidateFirstStoryIDs:
+    - optionID: Story 0
+      optionText: 
+      nextStory:
+        storyID: Story 1
+        storyParentPath: 
+        storyPath: Story 1
+        storyText: You have been plagued by disease!
+        storyOptions:
+        - optionID: Option 0
+          optionText: I deflect disease
+          nextStory:
+            storyID: Option 0
+            storyParentPath: /Story 1
+            storyPath: Option 0
+            storyText: QUEST COMPLETE
+            storyOptions:
+            - optionID: Option 0
+              optionText: COMPLETE
+              nextStory:
+                storyID: Option 0
+                storyParentPath: /Story 1/Option 0
+                storyPath: Option 0
+                storyText: Yo
+                storyOptions: []
+                narratedBy: 0
+                narratingCharacter: {fileID: 0}
+                nextStoryID: 
+                addedJourneyTime: 0
+                ForeshadowsLandIds: []
+                rewardsAndPenalties: []
+                baseRewardsAndPenalties:
+                  goldAmountChanged: 0
+                  dirhamAmountChanged: 0
+                  journeyTimeAdded: 0
+                triggerActionSequence: 0
+                actionSequence: {fileID: 0}
+                isFinalStory: 0
+              triggerFrom: 1
+              triggerID: p1
+              unlockCriteriaCaravan: []
+              statRequirements:
+                stats: []
+              baseUnlockConditions:
+                goldRequired: 0
+                dirhamRequired: 0
+              storyUnlockConditions: []
+              completeStoryIdsToUnlock: []
+              isRootStory: 0
+            narratedBy: 0
+            narratingCharacter: {fileID: 0}
+            nextStoryID: 
+            addedJourneyTime: 0
+            ForeshadowsLandIds: []
+            rewardsAndPenalties: []
+            baseRewardsAndPenalties:
+              goldAmountChanged: 0
+              dirhamAmountChanged: 0
+              journeyTimeAdded: 0
+            triggerActionSequence: 0
+            actionSequence: {fileID: 0}
+            isFinalStory: 0
+          triggerFrom: 0
+          triggerID: 
+          unlockCriteriaCaravan:
+          - unlockType: 2
+            character: {fileID: 11400000, guid: a069241a3c3839f4fb149fa20c3aaacd,
+              type: 2}
+            item: {fileID: 11400000, guid: 3915d4dc6b1333c44b6b7cc22cf48c05, type: 2}
+            amountRequired: 2
+          statRequirements:
+            stats: []
+          baseUnlockConditions:
+            goldRequired: 0
+            dirhamRequired: 0
+          storyUnlockConditions:
+          - storyAsset: {fileID: 11400000}
+            storyNode:
+              storyID: BefriendedTribe
+              storyParentPath: /Story 1
+              storyPath: Befriended
+              storyText: You have become enemies with this tribe!
+              storyOptions:
+              - optionID: Option 0
+                optionText: 
+                nextStory:
+                  storyID: Option 0
+                  storyParentPath: /Story 1/Befriended
+                  storyPath: Option 0
+                  storyText: 
+                  storyOptions: []
+                  narratedBy: 0
+                  narratingCharacter: {fileID: 0}
+                  nextStoryID: 
+                  addedJourneyTime: 0
+                  ForeshadowsLandIds: []
+                  rewardsAndPenalties: []
+                  baseRewardsAndPenalties:
+                    goldAmountChanged: 0
+                    dirhamAmountChanged: 0
+                    journeyTimeAdded: 0
+                  triggerActionSequence: 0
+                  actionSequence: {fileID: 0}
+                  isFinalStory: 0
+                triggerFrom: 0
+                triggerID: 
+                unlockCriteriaCaravan: []
+                statRequirements:
+                  stats: []
+                baseUnlockConditions:
+                  goldRequired: 0
+                  dirhamRequired: 0
+                storyUnlockConditions: []
+                completeStoryIdsToUnlock: []
+                isRootStory: 0
+              narratedBy: 0
+              narratingCharacter: {fileID: 0}
+              nextStoryID: 
+              addedJourneyTime: 0
+              ForeshadowsLandIds: []
+              rewardsAndPenalties:
+              - item: {fileID: 11400000, guid: ee18aadba3a32684080cf0e1d4588c0f, type: 2}
+                amountChanged: 1
+              baseRewardsAndPenalties:
+                goldAmountChanged: 0
+                dirhamAmountChanged: 0
+                journeyTimeAdded: 0
+              triggerActionSequence: 0
+              actionSequence: {fileID: 0}
+              isFinalStory: 0
+            storyID: Option 2
+          completeStoryIdsToUnlock: []
+          isRootStory: 0
+        - optionID: Option 1
+          optionText: I cave in
+          nextStory:
+            storyID: BefriendedTribe
+            storyParentPath: /Story 1
+            storyPath: BefriendedTribe
+            storyText: You have become enemies with this tribe!
+            storyOptions:
+            - optionID: Option 0
+              optionText: 
+              nextStory:
+                storyID: Option 0
+                storyParentPath: /Story 1/BefriendedTribe
+                storyPath: Option 0
+                storyText: 
+                storyOptions: []
+                narratedBy: 0
+                narratingCharacter: {fileID: 0}
+                nextStoryID: 
+                addedJourneyTime: 0
+                ForeshadowsLandIds: []
+                rewardsAndPenalties: []
+                baseRewardsAndPenalties:
+                  goldAmountChanged: 0
+                  dirhamAmountChanged: 0
+                  journeyTimeAdded: 0
+                triggerActionSequence: 0
+                actionSequence: {fileID: 0}
+                isFinalStory: 0
+              triggerFrom: 1
+              triggerID: p1
+              unlockCriteriaCaravan: []
+              statRequirements:
+                stats: []
+              baseUnlockConditions:
+                goldRequired: 0
+                dirhamRequired: 0
+              storyUnlockConditions: []
+              completeStoryIdsToUnlock: []
+              isRootStory: 0
+            narratedBy: 0
+            narratingCharacter: {fileID: 0}
+            nextStoryID: 
+            addedJourneyTime: 0
+            ForeshadowsLandIds: []
+            rewardsAndPenalties:
+            - item: {fileID: 11400000, guid: ee18aadba3a32684080cf0e1d4588c0f, type: 2}
+              amountChanged: 1
+            baseRewardsAndPenalties:
+              goldAmountChanged: 0
+              dirhamAmountChanged: 0
+              journeyTimeAdded: 0
+            triggerActionSequence: 0
+            actionSequence: {fileID: 0}
+            isFinalStory: 0
+          triggerFrom: 0
+          triggerID: 
+          unlockCriteriaCaravan: []
+          statRequirements:
+            stats: []
+          baseUnlockConditions:
+            goldRequired: 0
+            dirhamRequired: 0
+          storyUnlockConditions: []
+          completeStoryIdsToUnlock: []
+          isRootStory: 0
+        - optionID: Option 2
+          optionText: 
+          nextStory:
+            storyID: Option 2
+            storyParentPath: /Story 1
+            storyPath: Option 2
+            storyText: Yo
+            storyOptions: []
+            narratedBy: 0
+            narratingCharacter: {fileID: 0}
+            nextStoryID: 
+            addedJourneyTime: 0
+            ForeshadowsLandIds: []
+            rewardsAndPenalties: []
+            baseRewardsAndPenalties:
+              goldAmountChanged: 0
+              dirhamAmountChanged: 0
+              journeyTimeAdded: 0
+            triggerActionSequence: 0
+            actionSequence: {fileID: 0}
+            isFinalStory: 0
+          triggerFrom: 0
+          triggerID: 
+          unlockCriteriaCaravan: []
+          statRequirements:
+            stats: []
+          baseUnlockConditions:
+            goldRequired: 0
+            dirhamRequired: 0
+          storyUnlockConditions: []
+          completeStoryIdsToUnlock: []
+          isRootStory: 0
+        narratedBy: 0
+        narratingCharacter: {fileID: 11400000, guid: c41822f64bf65da479cc7d75aa648aa1,
+          type: 2}
+        nextStoryID: 
+        addedJourneyTime: 0
+        ForeshadowsLandIds: []
+        rewardsAndPenalties:
+        - item: {fileID: 11400000, guid: a9e65760b6c7be945a1e050baefa2419, type: 2}
+          amountChanged: 1
+        baseRewardsAndPenalties:
+          goldAmountChanged: 0
+          dirhamAmountChanged: 0
+          journeyTimeAdded: 0
+        triggerActionSequence: 0
+        actionSequence: {fileID: 11400000, guid: 3d60d71a7fdef934c8aab61e37d483e4,
+          type: 2}
+        isFinalStory: 0
+      triggerFrom: 0
+      triggerID: 
+      unlockCriteriaCaravan:
+      - unlockType: 2
+        character: {fileID: 11400000, guid: a069241a3c3839f4fb149fa20c3aaacd, type: 2}
+        item: {fileID: 0}
+        amountRequired: 2
+      statRequirements:
+        stats: []
+      baseUnlockConditions:
+        goldRequired: 2
+        dirhamRequired: 0
+      storyUnlockConditions: []
+      completeStoryIdsToUnlock: []
+      isRootStory: 0
+    - optionID: Story 1
+      optionText: 
+      nextStory:
+        storyID: Story 2
+        storyParentPath: 
+        storyPath: Story 2
+        storyText: Travel to Tribe Z
+        storyOptions:
+        - optionID: Option 0
+          optionText: Get Shunned
+          nextStory:
+            storyID: Option 0
+            storyParentPath: /Story 2
+            storyPath: Option 0
+            storyText: 'Engage with Tribe Z
+
+              You are shunned!'
+            storyOptions: []
+            narratedBy: 0
+            narratingCharacter: {fileID: 0}
+            nextStoryID: 
+            addedJourneyTime: 0
+            ForeshadowsLandIds: []
+            rewardsAndPenalties: []
+            baseRewardsAndPenalties:
+              goldAmountChanged: -5
+              dirhamAmountChanged: 0
+              journeyTimeAdded: 0
+            triggerActionSequence: 0
+            actionSequence: {fileID: 0}
+            isFinalStory: 0
+          triggerFrom: 0
+          triggerID: 
+          unlockCriteriaCaravan:
+          - unlockType: 0
+            character: {fileID: 0}
+            item: {fileID: 11400000, guid: ee18aadba3a32684080cf0e1d4588c0f, type: 2}
+            amountRequired: 1
+          statRequirements:
+            stats: []
+          baseUnlockConditions:
+            goldRequired: 5
+            dirhamRequired: 0
+          storyUnlockConditions: []
+          completeStoryIdsToUnlock: []
+          isRootStory: 0
+        - optionID: Option 1
+          optionText: Safe passage
+          nextStory:
+            storyID: Option 1
+            storyParentPath: /Story 2
+            storyPath: Option 1
+            storyText: You have befriended Tribe B
+            storyOptions:
+            - optionID: Option 0
+              optionText: COMPLETE QUEST
+              nextStory:
+                storyID: Option 0
+                storyParentPath: /Story 2/Option 1
+                storyPath: Option 0
+                storyText: LOCATION TRIGGERED!
+                storyOptions:
+                - optionID: Complete
+                  optionText: 
+                  nextStory:
+                    storyID: Option 0
+                    storyParentPath: /Story 2/Option 1/Option 0
+                    storyPath: Option 0
+                    storyText: 
+                    storyOptions: []
+                    narratedBy: 0
+                    narratingCharacter: {fileID: 0}
+                    nextStoryID: 
+                    addedJourneyTime: 0
+                    ForeshadowsLandIds: []
+                    rewardsAndPenalties: []
+                    baseRewardsAndPenalties:
+                      goldAmountChanged: 0
+                      dirhamAmountChanged: 0
+                      journeyTimeAdded: 0
+                    triggerActionSequence: 0
+                    actionSequence: {fileID: 0}
+                    isFinalStory: 0
+                  triggerFrom: 0
+                  triggerID: 
+                  unlockCriteriaCaravan: []
+                  statRequirements:
+                    stats: []
+                  baseUnlockConditions:
+                    goldRequired: 0
+                    dirhamRequired: 0
+                  storyUnlockConditions: []
+                  completeStoryIdsToUnlock: []
+                  isRootStory: 0
+                narratedBy: 0
+                narratingCharacter: {fileID: 0}
+                nextStoryID: 
+                addedJourneyTime: 0
+                ForeshadowsLandIds: []
+                rewardsAndPenalties: []
+                baseRewardsAndPenalties:
+                  goldAmountChanged: 0
+                  dirhamAmountChanged: 0
+                  journeyTimeAdded: 0
+                triggerActionSequence: 1
+                actionSequence: {fileID: 11400000, guid: 3d60d71a7fdef934c8aab61e37d483e4,
+                  type: 2}
+                isFinalStory: 0
+              triggerFrom: 1
+              triggerID: p1
+              unlockCriteriaCaravan: []
+              statRequirements:
+                stats: []
+              baseUnlockConditions:
+                goldRequired: 0
+                dirhamRequired: 0
+              storyUnlockConditions: []
+              completeStoryIdsToUnlock: []
+              isRootStory: 0
+            narratedBy: 0
+            narratingCharacter: {fileID: 0}
+            nextStoryID: 
+            addedJourneyTime: 0
+            ForeshadowsLandIds: []
+            rewardsAndPenalties: []
+            baseRewardsAndPenalties:
+              goldAmountChanged: 5
+              dirhamAmountChanged: 0
+              journeyTimeAdded: 0
+            triggerActionSequence: 0
+            actionSequence: {fileID: 0}
+            isFinalStory: 0
+          triggerFrom: 0
+          triggerID: 
+          unlockCriteriaCaravan:
+          - unlockType: 0
+            character: {fileID: 0}
+            item: {fileID: 11400000, guid: ee18aadba3a32684080cf0e1d4588c0f, type: 2}
+            amountRequired: 0
+          statRequirements:
+            stats: []
+          baseUnlockConditions:
+            goldRequired: 5
+            dirhamRequired: 0
+          storyUnlockConditions: []
+          completeStoryIdsToUnlock: []
+          isRootStory: 0
+        narratedBy: 0
+        narratingCharacter: {fileID: 0}
+        nextStoryID: 
+        addedJourneyTime: 0
+        ForeshadowsLandIds: []
+        rewardsAndPenalties: []
+        baseRewardsAndPenalties:
+          goldAmountChanged: 0
+          dirhamAmountChanged: 0
+          journeyTimeAdded: 0
+        triggerActionSequence: 0
+        actionSequence: {fileID: 0}
+        isFinalStory: 0
+      triggerFrom: 0
+      triggerID: 
+      unlockCriteriaCaravan: []
+      statRequirements:
+        stats:
+        - Type: 2
+          Value: 51
+        - Type: 6
+          Value: 0
+      baseUnlockConditions:
+        goldRequired: 0
+        dirhamRequired: 0
+      storyUnlockConditions: []
+      completeStoryIdsToUnlock: []
+      isRootStory: 0
+  firstStoryNode:
+    storyID: 
+    storyParentPath: 
+    storyPath: 
+    storyText: 
+    storyOptions: []
+    narratedBy: 0
+    narratingCharacter: {fileID: 0}
+    nextStoryID: 
+    addedJourneyTime: 0
+    ForeshadowsLandIds: []
+    rewardsAndPenalties: []
+    baseRewardsAndPenalties:
+      goldAmountChanged: 0
+      dirhamAmountChanged: 0
+      journeyTimeAdded: 0
+    triggerActionSequence: 0
+    actionSequence: {fileID: 0}
+    isFinalStory: 0

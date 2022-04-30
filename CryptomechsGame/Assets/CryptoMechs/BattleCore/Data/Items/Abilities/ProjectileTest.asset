@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: ProjectileTest
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: 008e1f8ead27f4ae89bc3f890a99c233, type: 3}
+  Name: IceAttack
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 5
+  speed: 20
+  attackCooldown: 3
+  range: 15
+  numRounds: 1
+  AimType: 0
+  TriggerCastTime: 0
+  AbilityImpactPoint: 0
+  AbilityMode: 0
+  ChannelFX: {fileID: 0}
+  MuzzleFX: {fileID: 2497064582676988039, guid: 6fd669bb7b85740468f5242a2136a9e9, type: 3}
+  MuzzleFXDuration: 3
+  ImpactFX: {fileID: 7069215525928952123, guid: 1d4b5046d38144f4c8358a4e7e7ff792, type: 3}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 1
+  TrailFX: {fileID: 2184230357395638236, guid: 668ae594a75a1114b89f789a65def310, type: 3}
+  TrailFXDestroyDelay: 0
+  Lifetime: 3
+  ResetTime: 0.1
+  NumImpacts: 1
+  FollowsTarget: 0
+  FollowSteerRate: 342
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 2
+    impactValue: 50
+    impactObject: {fileID: 0}
+    areaOfEffect: 0
+    useDeterministicTime: 0
+    timeOfEffectMoves: 0
+    timeOfEffect: 5
+    impactDelay: 0
+    useDeterministicDelay: 0
+    movesDelay: 0
+    useImpactTargetFX: 1
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 173866, guid: 6692e3c69d930964f89b810020ae7d5c, type: 3}
+      impactDuration: 5
+      useDeterministicTime: 1
+      impactMovesDuration: 2
+      useRenderFx: 1
+      renderEffect: fx4
+      renderEffectPrefab: {fileID: 196572, guid: a027108eca869824e93bcef13617c227, type: 3}
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 2
+    impactValue: 50
+    impactObject: {fileID: 0}
+    areaOfEffect: 0
+    useDeterministicTime: 0
+    timeOfEffectMoves: 0
+    timeOfEffect: 0
+    impactDelay: 5
+    useDeterministicDelay: 1
+    movesDelay: 2
+    useImpactTargetFX: 1
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 542170703034839069, guid: 10e11538eff50eb46aef09ac38d301a9, type: 3}
+      impactDuration: 9
+      useDeterministicTime: 1
+      impactMovesDuration: 2
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 12
+    impactValue: 2
+    impactObject: {fileID: 0}
+    areaOfEffect: 0
+    useDeterministicTime: 1
+    timeOfEffectMoves: 2
+    timeOfEffect: 5
+    impactDelay: 0
+    useDeterministicDelay: 0
+    movesDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 0
+      useDeterministicTime: 0
+      impactMovesDuration: 0
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  UseProceduralSpread: 0
+  SpreadType: 0
+  SpreadLength: 0
+  SpreadAngle: 60
+  NumberOfRounds: 3
+  UseCustomChannelAnimation: 0
+  CustomChannelAnimationTrigger: 
+  ChannelMode: 0
+  channelAnimLooping:
+    timeOffsetAmplitudeNormalized: 0.06
+    timeOffsetFrequency: 5
+  CanCancelAbility: 0
+  ChannelTime: 0
+  ChannelRate: 1
+  ApplyImpactWhileChanneling: 0
+  MoveWhileChanneling: 0
+  MoveDelay: 0
+  MoveToSelectedTarget: 0
+  MoveDirection: {x: 0, y: 0, z: 0}
+  MoveDistance: 0
+  Modifiers:
+    stats: []

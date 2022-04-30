@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: SmashAbility
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: e420c5bc93cb2604695a893500c897e3, type: 3}
+  Name: SmashAbility
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: Hulk Smash!
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 5
+  speed: 5
+  attackCooldown: 3
+  range: 15
+  numRounds: 1
+  AimType: 1
+  TriggerCastTime: 1
+  AbilityImpactPoint: 1
+  AbilityMode: 2
+  ChannelFX: {fileID: 0}
+  MuzzleFX: {fileID: 0}
+  MuzzleFXDuration: 0.1
+  ImpactFX: {fileID: 1601494591900918, guid: 61ee9554f7c3b03408fc8258477fddf5, type: 3}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 4
+  TrailFX: {fileID: 0}
+  TrailFXDestroyDelay: 0
+  Lifetime: 3
+  ResetTime: 0.1
+  NumImpacts: 1
+  FollowsTarget: 0
+  FollowSteerRate: 0
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 0
+    impactValue: 20
+    impactObject: {fileID: 0}
+    areaOfEffect: 15
+    useDeterministicTime: 0
+    timeOfEffectMoves: 0
+    timeOfEffect: 0
+    impactDelay: 0
+    useDeterministicDelay: 0
+    movesDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 0
+      useDeterministicTime: 0
+      impactMovesDuration: 0
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 5
+    impactValue: 7
+    impactObject: {fileID: 0}
+    areaOfEffect: 15
+    useDeterministicTime: 0
+    timeOfEffectMoves: 0
+    timeOfEffect: 0.3
+    impactDelay: 0
+    useDeterministicDelay: 0
+    movesDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 173866, guid: 6692e3c69d930964f89b810020ae7d5c, type: 3}
+      impactDuration: 0
+      useDeterministicTime: 0
+      impactMovesDuration: 0
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  UseProceduralSpread: 0
+  SpreadType: 0
+  SpreadLength: 0
+  SpreadAngle: 0
+  NumberOfRounds: 0
+  UseCustomChannelAnimation: 1
+  CustomChannelAnimationTrigger: Roll
+  ChannelMode: 0
+  channelAnimLooping:
+    timeOffsetAmplitudeNormalized: 0.06
+    timeOffsetFrequency: 5
+  CanCancelAbility: 0
+  ChannelTime: 1
+  ChannelRate: 1
+  ApplyImpactWhileChanneling: 0
+  MoveWhileChanneling: 1
+  MoveDelay: 0.1
+  MoveToSelectedTarget: 1
+  MoveDirection: {x: 0, y: 0, z: 0}
+  MoveDistance: 0
+  Modifiers:
+    stats: []

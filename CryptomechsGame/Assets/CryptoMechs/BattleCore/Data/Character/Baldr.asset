@@ -1,0 +1,973 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2b15df8c4ceff41b655ce8b1c672d2, type: 3}
+  m_Name: Baldr
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Inventory
+      Entry: 7
+      Data: 0|Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot[,], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 72
+    - Name: ranks
+      Entry: 1
+      Data: 12|6
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Icon: {fileID: 2800000, guid: 6fc27c9d7fc2d9448af6851bf935e6d2, type: 3}
+  Name: Baldr
+  Has3DRepresentation: 1
+  prefabObj: {fileID: 821756821622327962, guid: 08f3e07020954ec4fb4f19b6aadd43bd,
+    type: 3}
+  scale: 1
+  MaxHealth: 500
+  interactionNarrative: {fileID: 11400000, guid: 4f4c48be21227e141a2a1b4a557d0e7e,
+    type: 2}
+  aiBehaviour: {fileID: 11400000, guid: 8f27347815d0f7c4c90a14fe76e8608a, type: 2}
+  mover:
+    agent: {fileID: 0}
+    target: {fileID: 0}
+    cachedCharacter: {fileID: 0}
+  AnimationController:
+    IdleAnimation: {fileID: 7400000, guid: 9eb256082464cd6449c789350dfb0c25, type: 2}
+    RunAnimation: {fileID: 7400000, guid: 2b3ac83170a79b84e8d83ab2a8582f8b, type: 2}
+    MeleeAttackAnimations:
+    - {fileID: 7400000, guid: 6ae311da1d73e2e49bc04bf2d1435f61, type: 2}
+    - {fileID: 7400000, guid: 0b91da80eea35db43a1eacad6e914332, type: 2}
+    - {fileID: 7400000, guid: 4a6d9191fc1a7e1488bb4ce8a518669a, type: 2}
+    - {fileID: 7400000, guid: 951b08a9be94e5141843ae38f8d4fcab, type: 2}
+    - {fileID: 7400000, guid: 95a2680ef0fd20346a006f8b6070276a, type: 2}
+    RangeAttackAnimations: []
+    CastAnimations:
+    - {fileID: 7400000, guid: be69db3e7fc9a444ab315eba6000a975, type: 2}
+    DeathAnimations: []
+    CustomAnimations:
+    - motionTag: Smash
+      animations:
+      - {fileID: 7400000, guid: 3c40a75ff0e394b4a947b485fc8aed16, type: 2}
+    - motionTag: Charge
+      animations:
+      - {fileID: 7400000, guid: c2c893bb812ed334ba18ebcdcfd5dffd, type: 2}
+    - motionTag: Death
+      animations:
+      - {fileID: 7400000, guid: a82ccbeabef5d4d4a9b30509c1fb172a, type: 2}
+    animator: {fileID: 0}
+  Skills:
+    Stats:
+      stats:
+      - Type: 0
+        Value: 56.451614
+      - Type: 1
+        Value: 40.356865
+      - Type: 2
+        Value: 23.033136
+      - Type: 3
+        Value: 16.103643
+      - Type: 4
+        Value: 10.204426
+      - Type: 7
+        Value: 19.577923
+      - Type: 8
+        Value: 20.47026
+    StartingBuffModifiers:
+    - buffType: 5
+      buffValue: 5
+    - buffType: 6
+      buffValue: 50
+    StartingResistanceModifiers: []
+  StartingEquipment:
+    MainHand: {fileID: 11400000, guid: 98efc1438872f0b458fefa279e5ee972, type: 2}
+    Offhand: {fileID: 0}
+    Head: {fileID: 11400000, guid: c3191bc4db2097f489c2fea5510b960b, type: 2}
+    Body: {fileID: 0}
+  StartingAbilities:
+  - {fileID: 11400000, guid: 6c94f0255140a2a418faa76385c01576, type: 2}
+  - {fileID: 11400000, guid: 9b9be949896e5284b977aaae6815a494, type: 2}
+  - {fileID: 11400000, guid: d25e3d7eb5c3d19479d953bf1c8c3d32, type: 2}
+  - {fileID: 11400000, guid: b2bac027425860c4abce9c9c2e95b5cd, type: 2}

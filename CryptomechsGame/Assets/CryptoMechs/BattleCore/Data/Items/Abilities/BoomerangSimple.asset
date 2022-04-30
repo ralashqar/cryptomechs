@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: BoomerangSimple
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: 008e1f8ead27f4ae89bc3f890a99c233, type: 3}
+  Name: Boomerang
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 5
+  speed: 3
+  attackCooldown: 3
+  range: 25
+  numRounds: 1
+  AimType: 1
+  TriggerCastTime: 0
+  AbilityImpactPoint: 0
+  AbilityMode: 5
+  ChannelFX: {fileID: 0}
+  MuzzleFX: {fileID: 196220, guid: 43aaf66da1f06ce4b82173d86a821799, type: 3}
+  MuzzleFXDuration: 0.3
+  ImpactFX: {fileID: 7069215525928952123, guid: 1d4b5046d38144f4c8358a4e7e7ff792, type: 3}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 1
+  TrailFX: {fileID: 5690440939453038195, guid: 3173769c6a9556a4790eaca352a784cf, type: 3}
+  TrailFXDestroyDelay: 0
+  Lifetime: 1.1
+  ResetTime: 0.2
+  NumImpacts: 1
+  FollowsTarget: 0
+  FollowSteerRate: 342
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 2
+    impactValue: 10
+    impactObject: {fileID: 7069215525928952123, guid: 1d4b5046d38144f4c8358a4e7e7ff792, type: 3}
+    areaOfEffect: 0
+    useDeterministicTime: 0
+    timeOfEffectMoves: 0
+    timeOfEffect: 1
+    impactDelay: 0
+    useDeterministicDelay: 0
+    movesDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 7069215525928952123, guid: 1d4b5046d38144f4c8358a4e7e7ff792, type: 3}
+      impactDuration: 0.5
+      useDeterministicTime: 0
+      impactMovesDuration: 0
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 5
+    impactValue: 6
+    impactObject: {fileID: 0}
+    areaOfEffect: 2
+    useDeterministicTime: 0
+    timeOfEffectMoves: 0
+    timeOfEffect: 0.35
+    impactDelay: 0
+    useDeterministicDelay: 0
+    movesDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 0
+      useDeterministicTime: 0
+      impactMovesDuration: 0
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  UseProceduralSpread: 0
+  SpreadType: 0
+  SpreadLength: 0
+  SpreadAngle: 60
+  NumberOfRounds: 1
+  UseCustomChannelAnimation: 0
+  CustomChannelAnimationTrigger: 
+  ChannelMode: 0
+  channelAnimLooping:
+    timeOffsetAmplitudeNormalized: 0.02
+    timeOffsetFrequency: 5
+  CanCancelAbility: 0
+  ChannelTime: 2
+  ChannelRate: 1
+  ApplyImpactWhileChanneling: 0
+  MoveWhileChanneling: 0
+  MoveDelay: 0
+  MoveToSelectedTarget: 0
+  MoveDirection: {x: 0, y: 0, z: 0}
+  MoveDistance: 0
+  Modifiers:
+    stats: []

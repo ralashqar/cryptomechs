@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: LaserTest
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: 008e1f8ead27f4ae89bc3f890a99c233, type: 3}
+  Name: Laser
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 5
+  speed: 3
+  attackCooldown: 3
+  range: 25
+  numRounds: 1
+  AimType: 1
+  TriggerCastTime: 0
+  AbilityImpactPoint: 0
+  AbilityMode: 3
+  ChannelFX: {fileID: 0}
+  MuzzleFX: {fileID: 0}
+  MuzzleFXDuration: 0.1
+  ImpactFX: {fileID: 0}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 1
+  TrailFX: {fileID: 908776365657463733, guid: 10de8cfbc45282640b520b086bc28a37, type: 3}
+  TrailFXDestroyDelay: 0
+  Lifetime: 3
+  ResetTime: 0.1
+  NumImpacts: 30
+  FollowsTarget: 0
+  FollowSteerRate: 342
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 2
+    impactValue: 2
+    impactObject: {fileID: 0}
+    areaOfEffect: 0
+    timeOfEffect: 1
+    impactDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 173866, guid: 6692e3c69d930964f89b810020ae7d5c, type: 3}
+      impactDuration: 2.3
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  UseProceduralSpread: 0
+  SpreadType: 0
+  SpreadLength: 0
+  SpreadAngle: 60
+  NumberOfRounds: 2
+  UseCustomChannelAnimation: 0
+  CustomChannelAnimationTrigger: 
+  ChannelMode: 1
+  channelAnimLooping:
+    timeOffsetAmplitudeNormalized: 0.02
+    timeOffsetFrequency: 5
+  CanCancelAbility: 1
+  ChannelTime: 2
+  ChannelRate: 1
+  ApplyImpactWhileChanneling: 0
+  MoveWhileChanneling: 0
+  MoveDelay: 0
+  MoveToSelectedTarget: 0
+  MoveDirection: {x: 0, y: 0, z: 0}
+  MoveDistance: 0
+  Modifiers:
+    stats: []

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ec63a3144ce28eb4faef3df9e43ae59c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Abadi MT Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 48d25391164ce784aa98e46a4cc0497a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

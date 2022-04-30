@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8393490a43b90a247a961b9a1476a072, type: 3}
+  m_Name: ShieldBash
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: abilityCams
+      Entry: 6
+      Data: 
+  Icon: {fileID: 0}
+  Name: ShieldBash
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 22
+  Requirements:
+    stats: []
+  cardMode: 0
+  ability: {fileID: 11400000, guid: b2bac027425860c4abce9c9c2e95b5cd, type: 2}
+  castTarget: 0
+  actionSequence: {fileID: 11400000, guid: 88219d2292ee37c46acaf110ed1eb867, type: 2}
+  FPCost: 1
+  range: 2
+  forceStraightLine: 0
+  Modifiers:
+    stats: []

@@ -1,0 +1,1704 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3940c3a4e2e8f094e9b92dcab6b565b7, type: 3}
+  m_Name: DamascusMarket
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 67d1ed549b93e2843bd862b00e405276, type: 2}
+    - {fileID: 11400000, guid: 4ccd27bf52cba68458273592748c80da, type: 2}
+    - {fileID: 11400000, guid: 3915d4dc6b1333c44b6b7cc22cf48c05, type: 2}
+    - {fileID: 11400000, guid: c604a61ec26a0e54788cb3c9a5825d85, type: 2}
+    - {fileID: 11400000, guid: 98efc1438872f0b458fefa279e5ee972, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Inventory
+      Entry: 7
+      Data: 0|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot[,], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 48
+    - Name: ranks
+      Entry: 1
+      Data: 8|6
+    - Name: 
+      Entry: 7
+      Data: 1|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 0
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 1
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 0
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: true
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 1
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 2
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 14
+    - Name: Item
+      Entry: 10
+      Data: 3
+    - Name: marketDescription
+      Entry: 1
+      Data: Apples!
+    - Name: useBaseRate
+      Entry: 5
+      Data: true
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 32
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 2
+    - Name: Item
+      Entry: 10
+      Data: 3
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 0
+    - Name: marketDescription
+      Entry: 1
+      Data: YO
+    - Name: useBaseRate
+      Entry: 5
+      Data: true
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 2
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|Sirenix.OdinInspector.Demos.RPGEditor.MarketItemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: marketDescription
+      Entry: 6
+      Data: 
+    - Name: useBaseRate
+      Entry: 5
+      Data: false
+    - Name: baseRateMultiplier
+      Entry: 4
+      Data: 0
+    - Name: canBuyWithCurrency
+      Entry: 5
+      Data: false
+    - Name: goldPrice
+      Entry: 3
+      Data: 0
+    - Name: dirhamPrice
+      Entry: 3
+      Data: 0
+    - Name: tradesFor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Icon: {fileID: 2800000, guid: 2f1eaeeaad36ee5469eff7ff158f37ba, type: 3}
+  Name: DamascusMarket
+  Description: Market

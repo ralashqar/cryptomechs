@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbd2dfd3fdfb8246b21a946ffc068c7, type: 3}
+  m_Name: ProjectilePurple
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Icon: {fileID: 2800000, guid: ca2ec96e04914514ca532b6d55c85db4, type: 3}
+  Name: ProjectilePurple
+  Has3DRepresentation: 0
+  prefabObj: {fileID: 0}
+  scale: 1
+  Description: 
+  Notes: 
+  Type: 16
+  Requirements:
+    stats: []
+  applyImpactAsDPS: 0
+  damage: 6
+  speed: 20
+  attackCooldown: 3
+  range: 90
+  numRounds: 1
+  AimType: 0
+  TriggerCastTime: 0
+  AbilityImpactPoint: 0
+  AbilityMode: 0
+  ChannelFX: {fileID: 0}
+  MuzzleFX: {fileID: 150096, guid: 9cd6ac71e1191a44fb66645bc89b9879, type: 3}
+  MuzzleFXDuration: 0.15
+  ImpactFX: {fileID: 106912, guid: 50cc3085bd744f5418867cd768e939e3, type: 3}
+  ImpactDelayAfterFX: 0
+  ImpactFXDuration: 1
+  TrailFX: {fileID: 196044, guid: 7a4e290b9dbb95640938b8bdfc52cac9, type: 3}
+  TrailFXDestroyDelay: 0
+  Lifetime: 3
+  ResetTime: 0.1
+  NumImpacts: 5
+  FollowsTarget: 0
+  FollowSteerRate: 0
+  AffectsSingleTarget: 0
+  AbilityEffects:
+  - ApplicationType: 0
+    affectsTeam: 0
+    impactType: 2
+    impactValue: 5
+    impactObject: {fileID: 0}
+    areaOfEffect: 10
+    timeOfEffect: 0
+    impactDelay: 0
+    useImpactTargetFX: 0
+    targetImpactFX:
+      animationTrigger: 
+      impactFX: {fileID: 0}
+      impactDuration: 1
+      useRenderFx: 0
+      renderEffect: 
+      renderEffectPrefab: {fileID: 0}
+  UseProceduralSpread: 1
+  SpreadType: 0
+  SpreadLength: 0
+  SpreadAngle: 0
+  NumberOfRounds: 1
+  UseCustomChannelAnimation: 0
+  CustomChannelAnimationTrigger: 
+  ChannelMode: 2
+  channelAnimLooping:
+    timeOffsetAmplitudeNormalized: 0.06
+    timeOffsetFrequency: 5
+  CanCancelAbility: 0
+  ChannelTime: 1
+  ChannelRate: 5
+  ApplyImpactWhileChanneling: 0
+  MoveWhileChanneling: 0
+  MoveDelay: 0
+  MoveToSelectedTarget: 0
+  MoveDirection: {x: 0, y: 0, z: 0}
+  MoveDistance: 0
+  Modifiers:
+    stats: []
